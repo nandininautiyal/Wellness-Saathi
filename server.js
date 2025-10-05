@@ -1,10 +1,11 @@
 const express = require('express');
 const path = require('path');
 const healthRoutes = require('./routes/HealthRoutes');
-const drugRoutes = require('./routes/DrugRoutes'); // <-- 1. ADD THIS LINE
+const drugRoutes = require('./routes/DrugRoutes');
 
 const app = express();
-const PORT = 3000;
+
+const PORT = process.env.PORT || 3000;
 
 // Set EJS as view engine
 app.set('view engine', 'ejs');
@@ -19,10 +20,9 @@ app.get('/', (req, res) => {
 });
 
 app.use('/remedies', healthRoutes);
-app.use('/drugs', drugRoutes); 
+app.use('/drugs', drugRoutes);
 
 // Start server
 app.listen(PORT, () => {
-    console.log(`Server running at http://localhost:${PORT}`);
+    console.log(`Server running on port ${PORT}`);
 });
-
