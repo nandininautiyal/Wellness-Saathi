@@ -1,0 +1,47 @@
+<!-- Bootstrap JS for Carousel -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    // --- Prayer Audio Logic ---
+    let prayerAudio; 
+    function playPrayer() {
+        if (prayerAudio && !prayerAudio.paused) {
+            prayerAudio.pause();
+            prayerAudio.currentTime = 0;
+        } else {
+            if (!prayerAudio) {
+                prayerAudio = new Audio('/audio/prayer.mp3');
+            }
+            prayerAudio.play().catch(e => {
+                console.error("Audio playback failed:", e);
+            });
+        }
+    }
+
+    // --- UPDATED Medicine Search Logic ---
+    function searchMedicine() {
+        const medicine = document.getElementById('medicineSearch').value.trim();
+        if (medicine) {
+            // This now correctly redirects to your new DrugRoutes file
+            window.location.href = `/drugs?drug_name=${encodeURIComponent(medicine)}`;
+        }
+    }
+    // --- END OF UPDATE ---
+
+    // --- Health Issue Handler ---
+    function handleHealthIssue(issue) {
+        if (issue) {
+            window.location.href = `/remedies?symptom=${issue}`;
+        }
+    }
+    
+    // --- Enter Key Support for Medicine Search ---
+    document.getElementById('medicineSearch')?.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            searchMedicine();
+        }
+    });
+</script>
+</body>
+</html>
+

@@ -1,0 +1,147 @@
+{
+    "stomach-ache": {
+        "name": "Stomach Ache",
+        "home_remedies": [
+            {
+                "title": "Ginger Tea",
+                "description": "Ginger is known for its anti-inflammatory properties. Sip on warm ginger tea to help soothe an upset stomach."
+            },
+            {
+                "title": "BRAT Diet",
+                "description": "Stick to simple foods like Bananas, Rice, Applesauce, and Toast. These are easy to digest and can help bind stool."
+            },
+            {
+                "title": "Peppermint",
+                "description": "Peppermint can help relax stomach muscles. Peppermint tea or even smelling peppermint oil can provide relief."
+            }
+        ],
+        "common_medicines": "Antacids like Digene, Gelusil. Consult a doctor if pain persists."
+    },
+    "headache": {
+        "name": "Headache",
+        "home_remedies": [
+            {
+                "title": "Stay Hydrated",
+                "description": "Dehydration is a common cause of headaches. Drink a full glass of water slowly."
+            },
+            {
+                "title": "Cold Compress",
+                "description": "Applying a cold compress or ice pack to the forehead or back of the neck can help numb the area and shrink blood vessels."
+            },
+            {
+                "title": "Rest in a Dark Room",
+                "description": "Sensitivity to light and sound can worsen headaches. Rest in a quiet, dark room to reduce stimulation."
+            }
+        ],
+        "common_medicines": "Paracetamol (Crocin), Ibuprofen (Brufen). Consult a doctor for recurring headaches."
+    },
+    "joint-pain": {
+        "name": "Joint Pain",
+        "home_remedies": [
+            {
+                "title": "Hot and Cold Packs",
+                "description": "Use a hot pack to relax muscles and a cold pack to reduce inflammation and swelling. Alternate between them."
+            },
+            {
+                "title": "Turmeric Milk (Haldi Doodh)",
+                "description": "Turmeric contains curcumin, a powerful anti-inflammatory compound. Drink a glass of warm milk with a teaspoon of turmeric."
+            },
+            {
+                "title": "Gentle Stretching",
+                "description": "Light and gentle stretching can improve flexibility and reduce stiffness in the joints. Avoid any painful movements."
+            }
+        ],
+        "common_medicines": "Pain relief gels (Volini), Diclofenac. Always consult a doctor for chronic joint pain."
+    },
+    "cold-cough": {
+        "name": "Cold & Cough",
+        "home_remedies": [
+            {
+                "title": "Honey and Lemon Tea",
+                "description": "A warm mixture of honey and lemon in water can soothe a sore throat and suppress a cough."
+            },
+            {
+                "title": "Steam Inhalation",
+                "description": "Inhaling steam from a bowl of hot water can help clear nasal congestion and soothe irritated airways."
+            },
+            {
+                "title": "Gargle with Salt Water",
+                "description": "Gargling with warm salt water can reduce throat swelling and irritation."
+            }
+        ],
+        "common_medicines": "Cough syrups (Benadryl), Lozenges (Vicks). See a doctor if symptoms last more than a week."
+    },
+    "sleeplessness": {
+        "name": "Sleeplessness",
+        "home_remedies": [
+            {
+                "title": "Warm Milk",
+                "description": "A glass of warm milk before bed can be calming and help promote sleep."
+            },
+            {
+                "title": "Establish a Routine",
+                "description": "Go to bed and wake up at the same time every day, even on weekends, to regulate your body's internal clock."
+            },
+            {
+                "title": "Avoid Screens Before Bed",
+                "description": "The blue light from phones, TVs, and computers can interfere with sleep. Turn them off an hour before bedtime."
+            }
+        ],
+        "common_medicines": "Melatonin supplements. It's best to consult a doctor before taking any sleep aids."
+    },
+    "indigestion-gas": {
+        "name": "Indigestion & Gas",
+        "home_remedies": [
+            {
+                "title": "Fennel Seeds (Saunf)",
+                "description": "Chewing a teaspoon of fennel seeds after a meal can aid digestion and reduce gas."
+            },
+            {
+                "title": "Ajwain (Carom Seeds) Water",
+                "description": "Boil a teaspoon of ajwain in water, strain, and drink. It provides quick relief from gas and indigestion."
+            },
+            {
+                "title": "Avoid Trigger Foods",
+                "description": "Pay attention to foods that cause discomfort, such as very oily or spicy meals, and try to avoid them."
+            }
+        ],
+        "common_medicines": "Antacids (Eno, Pudin Hara). If symptoms are frequent, consult a doctor."
+    },
+    "fatigue": {
+        "name": "Fatigue / Low Energy",
+        "home_remedies": [
+            {
+                "title": "Stay Hydrated",
+                "description": "Even mild dehydration can cause feelings of tiredness. Ensure you're drinking enough water throughout the day."
+            },
+            {
+                "title": "Nutrient-Rich Diet",
+                "description": "Focus on a balanced diet with fruits, vegetables, and whole grains. Iron-rich foods like spinach can be particularly helpful."
+            },
+            {
+                "title": "Short Walk",
+                "description": "A brief, 10-15 minute walk can boost circulation and increase energy levels more effectively than a nap sometimes."
+            }
+        ],
+        "common_medicines": "Vitamin supplements (B12, D) may help, but only after consulting a doctor to check for deficiencies."
+    },
+    "skin-irritation": {
+        "name": "Minor Skin Irritation",
+        "home_remedies": [
+            {
+                "title": "Coconut Oil",
+                "description": "Applying a thin layer of coconut oil can moisturize dry skin and soothe mild irritation due to its natural properties."
+            },
+            {
+                "title": "Oatmeal Bath",
+                "description": "Soaking in a lukewarm bath with finely ground oatmeal can relieve itching and calm irritated skin."
+            },
+            {
+                "title": "Cool Compress",
+                "description": "Applying a cool, damp cloth to the affected area can help reduce itching, redness, and swelling."
+            }
+        ],
+        "common_medicines": "Calamine lotion (Lacto Calamine), Antihistamine creams. See a doctor if the rash is severe or spreads."
+    }
+}
+

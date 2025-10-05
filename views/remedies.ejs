@@ -1,0 +1,26 @@
+<%- include('partials/header') %>
+
+<div class="remedy-page-container">
+    <% if (remedy) { %>
+        <h1 class="remedy-title"><%= remedy.name %></h1>
+
+        <h3 class="remedy-section-title">Home Remedies</h3>
+        <% remedy.home_remedies.forEach(function(item) { %>
+            <div class="remedy-card">
+                <h4><%= item.title %></h4>
+                <p><%= item.description %></p>
+            </div>
+        <% }); %>
+
+        <h3 class="remedy-section-title">Common Medicines</h3>
+        <p><%= remedy.common_medicines %></p>
+
+    <% } else { %>
+        <h1 class="remedy-title">Remedy Not Found</h1>
+        <p>Sorry, we could not find any remedies for the selected issue. Please try another option.</p>
+    <% } %>
+
+    <a href="/#health" class="back-link">&larr; Back to Health Saathi</a>
+</div>
+
+<%- include('partials/footer') %>
